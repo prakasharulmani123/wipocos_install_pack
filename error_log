@@ -1,0 +1,34 @@
+[24-Aug-2015 08:32:59 America/Chicago] PHP Fatal error:  Call to undefined function step_4() in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/header.php on line 239
+[25-Aug-2015 00:42:06 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 89
+[25-Aug-2015 00:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 89
+[25-Aug-2015 00:42:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 89
+[25-Aug-2015 01:05:23 America/Chicago] PHP Fatal error:  Call to undefined function step_4() in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/header.php on line 239
+[25-Aug-2015 01:21:51 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 3
+[25-Aug-2015 01:22:18 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 5
+[25-Aug-2015 01:23:07 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 6
+[25-Aug-2015 01:23:37 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 6
+[25-Aug-2015 01:25:20 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 7
+[25-Aug-2015 01:26:28 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 7
+[25-Aug-2015 01:26:34 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 7
+[25-Aug-2015 01:27:04 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 01:27:24 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 01:30:22 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 11
+[25-Aug-2015 01:30:41 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 10
+[25-Aug-2015 01:30:55 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 8
+[25-Aug-2015 01:31:24 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 8
+[25-Aug-2015 01:32:58 America/Chicago] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 6
+[25-Aug-2015 01:32:58 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 8
+[25-Aug-2015 01:33:14 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 8
+[25-Aug-2015 01:42:56 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 01:44:03 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 01:44:50 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 01:45:09 America/Chicago] PHP Notice:  Use of undefined constant site_url - assumed 'site_url' in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/step4.php on line 9
+[25-Aug-2015 02:29:16 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 109
+[25-Aug-2015 02:59:04 America/Chicago] PHP Notice:  Undefined variable: database_username in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 217
+[25-Aug-2015 02:59:04 America/Chicago] PHP Notice:  Undefined variable: database_password in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 217
+[25-Aug-2015 02:59:04 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 217
+[25-Aug-2015 02:59:04 America/Chicago] PHP Notice:  Undefined variable: database_name in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 219
+[25-Aug-2015 02:59:04 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 220
+[25-Aug-2015 02:59:04 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 221
+[25-Aug-2015 02:59:04 America/Chicago] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/install.php on line 222
+[25-Aug-2015 04:57:54 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'rajencba_prakash'@'localhost' (using password: YES) in /home3/rajencba/public_html/arkinfotec.in/wipo_install/installation/index.php on line 88
