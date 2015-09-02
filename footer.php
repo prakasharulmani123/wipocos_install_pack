@@ -25,7 +25,7 @@
 <div class="clear">&nbsp;</div>
 <div id="footer">
 	<div id="footer-left">
-	&copy; Wipocos. All rights reserved.</div>
+            <?php echo date('Y'); ?> &copy; Wipocos. All rights reserved.</div>
 	<div class="clear">&nbsp;</div>
 </div>
 </body>

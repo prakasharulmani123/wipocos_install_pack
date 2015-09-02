@@ -1,9 +1,9 @@
 <?php
                                 return array(
-                                    'connectionString' => 'mysql:host=localhost;dbname=rajencba_wipo_install',
+                                    'connectionString' => 'mysql:host=localhost;dbname=test_wipo',
                                     'emulatePrepare' => true,
-                                    'username' => 'rajencba_prakash',
-                                    'password' => '&Fzk*^A1rd%T',
+                                    'username' => 'root',
+                                    'password' => '',
                                     'charset' => 'utf8',
                                     'tablePrefix' => 'wipo_',
                                 );
