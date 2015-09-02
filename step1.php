@@ -13,7 +13,7 @@
     <tr>
         <th>&nbsp;</th>
         <td valign="top">
-            <input type="submit" value="" class="form-submit" />
+            <input type="submit" value="" class="form-next" />
         </td>
         <td></td>
     </tr>

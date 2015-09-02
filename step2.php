@@ -40,5 +40,5 @@
 
 <form action="index.php?step=2" method="post">
     <input type="hidden" name="pre_error" id="pre_error" value="<?php echo $pre_error; ?>" />
-    <input type="submit" name="continue" value="Continue" class="form-submit" />
+    <input type="submit" name="continue" value="Continue" class="form-next" />
 </form>

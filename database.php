@@ -1,6 +1,6 @@
 <?php
                                 return array(
-                                    'connectionString' => 'mysql:host=localhost;dbname=test_wipo',
+                                    'connectionString' => 'mysql:host=localhost;dbname=wipocos_2',
                                     'emulatePrepare' => true,
                                     'username' => 'root',
                                     'password' => '',

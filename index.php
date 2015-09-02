@@ -1,11 +1,13 @@
 <?php
 
 ob_start();
+session_start();
 error_reporting(E_ALL & ~E_WARNING);
 include 'header.php';
 
 function step_1() {
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['agree'])) {
+        $_SESSION['step1'] = true;
         header('Location: index.php?step=2');
         exit;
     }
@@ -23,7 +25,12 @@ function step_1() {
 }
 
 function step_2() {
+    if(!isset($_SESSION['step1']) || !$_SESSION['step1']){
+        header('Location: index.php?step=1');
+        exit;
+    }
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['pre_error'] == '') {
+        $_SESSION['step2'] = true;
         header('Location: index.php?step=3');
         exit;
     }
@@ -57,6 +64,12 @@ function step_2() {
 }
 
 function step_3() {
+    for($i=1; $i <= 2; $i++){
+        if(!isset($_SESSION["step$i"]) || !$_SESSION["step$i"]){
+            header("Location: index.php?step=$i");
+            exit;
+        }
+    }
     $database_host = $database_name = $database_username = $database_password = $admin_name = $admin_password = $admin_email = '';
     $new_db = false;
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -129,6 +142,7 @@ function step_3() {
                                     if (fwrite($f, $database_inf) > 0) {
                                         fclose($f);
                                         if (copy('database.php', '../protected/config/database.php')) {
+                                            $_SESSION['step3'] = true;
                                             header("Location: index.php?step=4");
                                         } else {
                                             //Failed to copy
@@ -224,6 +238,12 @@ function step_3() {
 }
 
 function step_4() {
+    for($i=1; $i <= 3; $i++){
+        if(!isset($_SESSION["step$i"]) || !$_SESSION["step$i"]){
+            header("Location: index.php?step=$i");
+            exit;
+        }
+    }
     include 'step4.php';
 }
 
